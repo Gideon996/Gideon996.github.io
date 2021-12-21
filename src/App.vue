@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- main menu -->
     <b-navbar toggleable="md" sticky class="navbar-expand-md">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav class="navbar-items">
@@ -11,12 +10,15 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-    <!-- website content -->
-    <div class="content">
-      <p> CIAO </p>
+
+    <div class="container">
+      <h1>SITO IN COSTRUZIONE</h1>
+      <img
+        src="https://giffiles.alphacoders.com/141/14109.gif"
+        alt="Worm Dance"
+      />
     </div>
 
-    <!-- footer -->
     <footer>
       <p>INFO</p>
     </footer>
@@ -26,17 +28,16 @@
 <script>
 export default {
   name: "App",
-  components: {
-  },
+  components: {},
 };
 </script>
 
 <style>
-:root{
+:root {
   --black: #222831;
-  --dark_grey: #393E46;
-  --grey: #EEEEEE;
-  --teal: #00ADB5;
+  --dark_grey: #393e46;
+  --grey: #eeeeee;
+  --teal: #00adb5;
 }
 
 html,
@@ -46,6 +47,7 @@ body {
   min-height: 100%;
   min-height: 100vh;
 }
+
 #app {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -53,11 +55,13 @@ body {
   text-align: center;
   color: var(--dark_grey);
 }
-@media (min-width: 769px) {
+
+@media (min-width: 760px) {
   .main {
     max-width: 80%;
     margin: auto;
   }
+
   .navbar-items {
     max-width: 80%;
     margin: auto;
@@ -65,49 +69,52 @@ body {
 }
 
 .main {
-  margin-top: 1.2em;
+  margin-top: 20px;
 }
 
 .navbar-expand-md {
-  background-color: #1abab5;
-  font-size: 1.2em;
+  background-color: var(--teal);
+  font-size: 20px;
   font-weight: bolder;
 }
+
 .item {
-  margin-right: 1em;
-  margin-left: 1em;
+  margin-right: 15px;
+  margin-left: 15px;
 }
+
 .navbar-light .navbar-nav .nav-link {
-  color: #daf5f5 !important;
+  color: var(--dark_grey) !important;
 }
+
 .navbar-light .navbar-toggler {
-  color: #daf5f5 !important;
-  border-color: #daf5f5 !important;
+  color: var(--dark_grey) !important;
+  border-color: var(--dark_grey) !important;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: white !important;
   transform: scale(1.05);
 }
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23daf5f5' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-.navbar-light .navbar-nav .active{
+.navbar-light .navbar-nav .active {
   color: white !important;
   transform: scale(1.15);
 }
 
-
-.content {
+.conteiner {
   height: auto !important;
 }
 
-footer{
+footer {
   position: absolute;
   clear: both;
   width: 100%;
   bottom: 0;
   background: var(--teal);
 }
-
 </style>
