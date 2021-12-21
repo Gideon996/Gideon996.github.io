@@ -19,16 +19,19 @@
       />
     </div>
 
-    <footer>
-      <p>INFO</p>
+    <footer class="footer-class">
+      <CustomFooter />
     </footer>
   </div>
 </template>
 
 <script>
+import CustomFooter from "@/components/CustomFooter.vue"
 export default {
   name: "App",
-  components: {},
+  components: {
+    CustomFooter,
+  },
 };
 </script>
 
@@ -116,5 +119,6 @@ footer {
   width: 100%;
   bottom: 0;
   background: var(--teal);
+  text-align: left;
 }
 </style>
