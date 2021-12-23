@@ -72,7 +72,7 @@ export default {
   list-style-type: none;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: initial;
   text-align: center;
   padding: 1em 0 0 0;
 }
