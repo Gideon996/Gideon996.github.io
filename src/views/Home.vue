@@ -14,7 +14,14 @@
 
 export default {
   name: 'Home',
-  title: 'HomePage',
+  title () {
+    return `AT - ${this.page_title}`
+  },
+  data () {
+    return {
+      page_title: 'Home'
+    }
+  },
   components: {
   }
 }

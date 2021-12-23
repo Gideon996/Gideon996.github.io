@@ -9,11 +9,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import router from './router'
 
+import titleMixin from './mixins/titleMixin'
 
 Vue.config.productionTip = false
 
 Vue.component('v-icon', Icon)
 Vue.use(BootstrapVue)
+Vue.mixin(titleMixin)
 
 new Vue({
   router,
