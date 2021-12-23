@@ -16,6 +16,7 @@
       <img
         src="https://giffiles.alphacoders.com/141/14109.gif"
         alt="Worm Dance"
+        width="100%"
       />
     </div>
 

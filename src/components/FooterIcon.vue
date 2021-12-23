@@ -4,9 +4,8 @@
       <a target="_blank" :href="icon.link">
         <div class="icon-element">
           <v-icon :name="icon.icon" class="icon" />
-        <p class="icon-text">{{ icon.name }}</p>
+          <p class="icon-text">{{ icon.name }}</p>
         </div>
-        
       </a>
     </li>
   </ul>
@@ -53,6 +52,22 @@ export default {
 </script>
 
 <style>
+/*Aggiungere MEDIA control*/
+
+@media (max-width: 760px) {
+  .icons-list {
+    float: none !important;
+    margin: auto;
+    display: block !important;
+    padding: 1em 0 0 0;
+  }
+
+  .li-icon {
+    display: block;
+    transition: transform 0.2s;
+  }
+}
+
 .icons-list {
   list-style-type: none;
   margin: auto;
@@ -90,7 +105,7 @@ a:active {
   color: white;
 }
 
-.icon-element:hover{
+.icon-element:hover {
   transform: scale(1.3);
   color: grey;
 }
