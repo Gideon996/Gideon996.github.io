@@ -4,20 +4,17 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav class="navbar-items">
         <b-navbar-nav>
-          <b-nav-item class="item" to="home" active>HomePage</b-nav-item>
-          <b-nav-item class="item" to="cv">CV</b-nav-item>
-          <b-nav-item class="item" to="contatti">Contatti</b-nav-item>
+          <b-nav-item class="item" exact-active-class="active" to="home">HomePage</b-nav-item>
+          <b-nav-item class="item" exact-active-class="active" to="cv">CV</b-nav-item>
+          <b-nav-item class="item" exact-active-class="active" to="contatti">Contatti</b-nav-item>
+          <b-nav-item class="item" exact-active-class="active" to="progetti">Progetti</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
 
     <div class="container">
-      <h1>SITO IN COSTRUZIONE</h1>
-      <img
-        src="https://giffiles.alphacoders.com/141/14109.gif"
-        alt="Worm Dance"
-        width="100%"
-      />
+      <router-view />
+     
     </div>
 
     <footer class="footer-class">
