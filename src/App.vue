@@ -6,7 +6,6 @@
         <b-navbar-nav>
           <b-nav-item class="item" exact-active-class="active" to="home">HomePage</b-nav-item>
           <b-nav-item class="item" exact-active-class="active" to="cv">CV</b-nav-item>
-          <b-nav-item class="item" exact-active-class="active" to="contatti">Contatti</b-nav-item>
           <b-nav-item class="item" exact-active-class="active" to="progetti">Progetti</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
