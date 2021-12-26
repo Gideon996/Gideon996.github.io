@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "titolo": "Diploma Superiore",
+    "descrizione": "Diplomato con successo come Perito Elettronico",
+    "data": "01/09/2015",
+    "luogo": "G. Ferraris - Ragusa (RG)"
+  },
+  {
+    "id": 2,
+    "titolo": "Laurea Triennale",
+    "descrizione": "Laureato con successo come Ingegnere Elettronico",
+    "data": "09/10/2019",
+    "luogo": "Università degli Studi di Trieste (TS)"
+  },
+  {
+    "id": 3,
+    "titolo": "Laurea Magistrale",
+    "descrizione": "Laurea in Ingegneria Informatica",
+    "data": "In Corso",
+    "luogo": "Università degli Studi di Trieste (TS)"
+  },
+  {
+    "id": 4,
+    "titolo": "Certificate 1 level: Vantage Integrator System Training",
+    "descrizione": "Certificato installatore Vantage",
+    "data": "27/06/2014",
+    "luogo": "C.R.E.A. snc - Ragusa (RG)"
+  },
+  {
+    "id": 5,
+    "titolo": "Certificazione EIPASS 7 MODULI",
+    "descrizione": "Patente Europea 7 Moduli Eipass",
+    "data": "24/06/2014",
+    "luogo": "Ragusa (RG)"
+  },
+  {
+    "id": 6,
+    "titolo": "ECDL CAD 2D",
+    "descrizione": "Certificato CAD per il disegno 2D",
+    "data": "2019",
+    "luogo": "Ragusa (RG)"
+  },
+  {
+    "id": 7,
+    "titolo": "Tirocinio Electronics engineering technician",
+    "descrizione": "Alternanza Scuola Lavoro presso la C.R.E.A snc",
+    "data": "17/06/2013 – 20/07/2013",
+    "luogo": "C.R.E.A. snc - Ragusa (RG)"
+  },
+  {
+    "id": 8,
+    "titolo": "Tirocinio ELIMOS",
+    "descrizione": "Tirocinio e Tesi presso la ELIMOS (TS)",
+    "data": "02/05/2019 – 25/09/2019",
+    "luogo": "ELIMOS - Trieste (TS)"
+  },
+  {
+    "id": 9,
+    "titolo": "Tirocinio CPI-ENG",
+    "descrizione": "Tirocinio e Tesi presso la CPI-eng (TS)",
+    "data": "11/10/202021 - 11/01/2022",
+    "luogo": "CPI-eng - Trieste (TS)"
+  }
+]
