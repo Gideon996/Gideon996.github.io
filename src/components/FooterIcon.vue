@@ -51,9 +51,7 @@ export default {
 };
 </script>
 
-<style>
-/*Aggiungere MEDIA control*/
-
+<style scoped>
 @media (max-width: 760px) {
   .icons-list {
     float: none !important;

@@ -14,7 +14,6 @@
 
     <div class="container">
       <router-view />
-     
     </div>
 
     <footer class="footer-class">
@@ -58,19 +57,10 @@ body {
 }
 
 @media (min-width: 760px) {
-  .main {
-    max-width: 80%;
-    margin: auto;
-  }
-
   .navbar-items {
     max-width: 80%;
     margin: auto;
   }
-}
-
-.main {
-  margin-top: 20px;
 }
 
 .navbar-expand-md {
@@ -107,12 +97,11 @@ body {
   transform: scale(1.15);
 }
 
-.conteiner {
+.container {
   height: auto !important;
 }
 
 footer {
-  position: absolute;
   clear: both;
   width: 100%;
   bottom: 0;
