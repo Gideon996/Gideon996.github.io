@@ -2,7 +2,7 @@
   <b-container class="home-container">
     <b-row>
       <b-col md="6" sm="12">
-        <a href="https://www.instagram.com/usgmen_gif/">
+        <a href="https://www.instagram.com/usgmen_gif/" target="_blank">
           <img
             class="home-image"
             :src="require('../static/new_year.gif')"
