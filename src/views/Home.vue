@@ -1,14 +1,16 @@
 <template>
   <b-container class="home-container">
     <b-row>
-      <b-col md="4" sm="12">
-        <img
-          class="home-image"
-          src="https://i.pinimg.com/originals/ab/7d/a3/ab7da3269b3b8430b4ba8430039ad4ca.gif"
-          alt="christmass tree gif"
-        />
+      <b-col md="6" sm="12">
+        <a href="https://www.instagram.com/usgmen_gif/">
+          <img
+            class="home-image"
+            :src="require('../static/new_year.gif')"
+            alt="home gif"
+          />
+        </a>
       </b-col>
-      <b-col md="8" sm="12" class="home-bio"> <SummaryBio /></b-col>
+      <b-col md="6" sm="12" class="home-bio"> <SummaryBio /></b-col>
     </b-row>
   </b-container>
 </template>
@@ -33,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-.home-image{
+.home-image {
   padding: 1em;
 }
 </style>
