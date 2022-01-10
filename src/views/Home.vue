@@ -36,6 +36,7 @@ export default {
 
 <style scoped>
 .home-image {
+  width: 100%;
   padding: 1em;
 }
 </style>
